@@ -5,21 +5,19 @@ on:
 Write-Output "## active_line 4 ##"
   schedule:
 Write-Output "## active_line 5 ##"
-    - cron:  `*/15 * * * *`
+    - cron:  '*/15 * * * *'
 Write-Output "## active_line 6 ##"
 jobs:
 Write-Output "## active_line 7 ##"
-  build:
+  hello:
 Write-Output "## active_line 8 ##"
     runs-on: ubuntu-latest
 Write-Output "## active_line 9 ##"
     steps:
 Write-Output "## active_line 10 ##"
-    - name: Checkout
+    - uses: actions/checkout@v2
 Write-Output "## active_line 11 ##"
-      uses: actions/checkout@v2
+    - name: Print Hello
 Write-Output "## active_line 12 ##"
-    - name: Echo Hello
-Write-Output "## active_line 13 ##"
       run: echo "Hello"
-Write-Output "## active_line 14 ##"
+Write-Output "## active_line 13 ##"
