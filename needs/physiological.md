@@ -7,6 +7,16 @@ Renewable energies like solar, wind, or geothermal are preferred. FALC assists i
 ## Shelter
 
 ## Food
+Food is a broad topic. Three agents work on this.
+
+### Growing and Gathering
+Getting the food.
+
+### Preserving and Cataloging
+Putting the food into the pantry.
+
+### Cooking and Meal Planning
+Preparing the food.
 
 ## Water
 
